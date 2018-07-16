@@ -1,0 +1,103 @@
+
+body{
+	margin: auto;
+	padding: auto;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+#section1 {
+	color: white;
+	font-size: 25px;
+    background-image:url("images/mee.jpg");
+
+
+
+}
+#section2 {
+	color: white;
+	font-size: 25px;
+	background-image:url("images/2.jpg");
+
+
+
+}
+#section3 {
+	color: white;
+	font-size: 25px;
+	background-image:url("images/mail.jpg");
+
+}
+
+
+.bg {
+    width:100%;
+    height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    min-height: 100vh;
+
+
+}
+.content{
+    margin-left:25vw;
+    padding-top: 5vh;
+	  width: 100vw;
+    height: 100%;
+
+
+}
+#wrapper{
+	text-align: center;
+	z-index: 1;
+}
+.content ul{
+	text-align: left;
+}
+input[type="text"],textarea{
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 6px 12px;
+    height: 34px;
+    font-size: 1.5em;
+    background: rgba(57, 61, 70, 0.5);
+    color:white;
+}
+textarea{
+    height: auto;
+    border-bottom: 1px solid #eee;
+    resize:none;
+
+}
+form{
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+.form-group{
+
+    margin:15px 0px 0px 0px;
+}
+#gonderbtn{
+
+    background-color: #171717;
+    color: gray;
+    border: 0.5px solid gray;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+#gonderbtn:hover{
+    color: white;
+    background-color: black;
+
+}

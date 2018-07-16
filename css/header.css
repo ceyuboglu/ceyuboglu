@@ -1,0 +1,92 @@
+@media (min-width: 769px){  
+
+#wrapper{
+	margin: auto;
+	padding: auto;
+
+
+}
+header {
+
+
+}
+footer {
+
+}
+
+#headerwrapper{
+
+		height: 100vh;
+		min-height: 400px;
+		width: 24vw;
+		margin: auto;
+		padding: auto;
+		position: fixed;
+		text-align: center;
+		background: rgba(57, 61, 70, 0.5);
+		z-index: 2;
+
+}
+#headerwrapper img{
+    height:180px;
+    width:180px;
+    border-radius: 100%;
+}
+
+#headerwrapper nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-radius: 100%;
+    text-align: center;
+
+}
+.social{
+    position: relative;
+    font-size: 25px;
+    color: #333333;
+
+ }
+ #headerwrapper nav ul li a i{
+    height: 80%;
+    width: 90%;
+    padding-top: 15%;
+    color: white;
+
+}
+
+
+#tw:hover{
+    background-color:#56AFE5;
+
+}
+#fb:hover{
+    background-color: #4267B2;
+}
+#inst:hover{
+    background-color:#DE1B7B;
+}
+#lin:hover{
+    background-color: #6C6C6C;
+}
+#gh:hover{
+    background-color: #000000;
+}
+
+
+#menu{
+    width:80%;
+    font-size: 3vh;
+}
+#menu li:before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+
+    width: 1.5em;
+    float: left;
+}
+}
