@@ -1,0 +1,70 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu;
+}
+@keyframes slide {
+  0%    { left: 0; }
+  100%  { left: -50%; }
+}
+#header{
+  height:50vh;
+  text-align: center;
+  justify-content:center;
+  background: rgba(57, 61, 70, 0.5);
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  padding: 5%;
+  top: 0;
+  left:0;
+}
+#header ul li{
+   display:inline-block;
+
+   margin-right: 10px;
+}
+#header ul li a{
+   text-decoration: none;
+   color: #CF7619;
+}
+#header ul li a:hover{
+   text-decoration: none;
+   color: #ADB3B0;
+}
+.section{
+  height:30vh;
+  display: flex;
+  color: #ededed;
+
+}
+.info{
+  height: 100%;
+  width:69%;
+  display:inline-block;
+  margin:0;
+  padding: 4%;
+  overflow: auto;
+
+}
+.info-photo{
+  height: 100%;
+  width:31%;
+  display:inline-block;
+  float:right;
+  text-align:center;
+}
+.bg-photo{
+  position: relative;
+  z-index: -10;
+  top: 0;
+  left:0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+  width:100%;
+
+
+}
