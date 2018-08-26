@@ -2,8 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script src="https://smtpjs.com/v2/smtp.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
     <meta name="generator" content="Cüneyt Atahan Eyüboğlu">
     <meta name="author" content="Cüneyt Atahan Eyüboğlu">
     <meta name="keywords" content="ceyuboglu,cüneyt atahan eyüboğlu,eyüboğlu">
@@ -77,16 +75,3 @@
         </div>
   </body>
 </html>
-<script type="text/javascript">
-    $.getJSON("https://jsonip.com?callback=?", function(data) {
-        var ipadress = data.ip;
-        console.log(ipadress);
-        Email.send("hikmeteyuboglu@gmail.com",
-            "ca.eyuboglu@gmail.com",
-            "Konusuz",
-            "Hadi inş"+ipadress,
-            "in-v3.mailjet.com",
-            "0b73654b1918d402a04f99136731f101",
-            "00e6ce424d72bb302b10299ea5ba80c7");
-    });
-</script>
